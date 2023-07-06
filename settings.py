@@ -2,7 +2,7 @@ from pathlib import Path
 
 # Windows
 PYTHON_EXE_FILE = r"C:/Python/envimageclassifier/Scripts/python.exe"  # specify python executable file
-# BASE_DIR = r"C:/temp/cuisineimageclassifier-flask"  # specify base directory
+BASE_DIR = r"C:/temp/cuisineimageclassifier-flask"  # specify base directory
 
 HOST = "127.0.0.1"  # localhost
 PORT = 8000
