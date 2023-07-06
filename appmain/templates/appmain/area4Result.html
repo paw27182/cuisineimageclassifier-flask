@@ -1,0 +1,37 @@
+{% if alert == "NG" %}
+    {% set alertType = "alert-danger" %}
+{% else %}
+    {% set alertType = "alert-primary" %}
+{% endif %}
+
+<div class="alert {{ alertType }} alert-dismissible fade show" role="alert">
+    {{ message }}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+    {% for image in images %}
+        {% set imgSize = 256 %}
+
+        {% set image2 = image[11:] %}
+        {% set image2 = image2 | replace('.png','-image') %}
+
+        <a href= "#{{ image2 }}" data-bs-toggle="modal">
+            <img src="{{url_for('appmain_bp.static', filename='wdir/' + image)}}" width={{ imgSize }} height={{ imgSize }} class="img-fluid rounded mb-1">
+        </a>
+
+        <!-- Modal Dialog -->
+        <div class="modal fade" id="{{ image2 }}" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6 class="modal-title">"{{ image2 }}"</h6>
+                        <img src="{{url_for('appmain_bp.static', filename='wdir/' + image)}}" class="img-fluid mt-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    {% endfor %}
