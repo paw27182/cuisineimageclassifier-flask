@@ -14,7 +14,6 @@
 * Environment setting
   * Edit settings.py
     * PYTHON_EXE_FILE 
-    * BASE_DIR
 
 <br>
 
