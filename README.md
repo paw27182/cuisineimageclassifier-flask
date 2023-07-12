@@ -3,7 +3,7 @@
 # 1. What you can do
 
 * To predict which class an image belong to by using the pre-trained model.<br>
-  The classification class consist of "salad", "sushi" and "tofu".
+  The classification classes consist of "salad", "sushi" and "tofu".
 
 * (CAUTION) This repository is for beginners' learning.  The precision of the model is not so good.
 
@@ -25,8 +25,8 @@
 
 * Open browser
   * http://localhost:8000/
-  * Submit an image: ./uisineimageclassifier-flask/tests/salad.jpg
-
+  * Submit an image:<br>
+   ./uisineimageclassifier-flask/tests/salad.jpg
 
 <br>
 
@@ -34,7 +34,7 @@
 * OS: Windows 10, Ubuntu 20.04.6 LTS
 * Web Framework: Flask
 * Python 3.10.11
-* Python Libraries: Flask matplotlib numpy Pillow requests tensorflow
+* Python Libraries: See the requirements.txt file
 * Bootstrap 5.2.3
 * jQuery 3.7.0
 
@@ -44,12 +44,12 @@
 
 | Directory/File |D/F| description |
 | :------------- | :-| :---------- |
-| execute | Dir | predict program directory |
-| execute/model | Dir | Machine learning model |
-| execute/static | Dir | html, javascript files |
-| execute/template | Dir | html files |
-| execute/command.py | File | Machine learning predict program |
-| execute/execute.py | File | dispatcher |
+| appmain | Dir | predict program directory |
+| appmain/model | Dir | Machine learning model |
+| appmain/static | Dir | html, javascript files |
+| appmain/templates | Dir | html files |
+| appmain/appmain_bp.py | File | dispatcher |
+| appmain/command.py | File | Machine learning predict program |
 | static | Dir | css, javascript files |
 | templates | Dir | layout.html |
 | tests | Dir | test image files |

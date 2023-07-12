@@ -1,5 +1,2 @@
-.github
 .idea
-__pycache__
-execute/__pycache__
-topview/__pycache__
+__pycache__/
