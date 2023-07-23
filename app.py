@@ -1,7 +1,7 @@
 from flask import Flask
 
-from appmain.appmain_bp import appmain_bp
 # import Blueprint
+from appmain.appmain_bp import appmain_bp
 from topview.topview_bp import topview_bp
 
 

@@ -1,3 +1,4 @@
+# import ast
 from datetime import datetime as dt
 from pathlib import Path
 
@@ -18,6 +19,8 @@ appmain_bp = Blueprint('appmain_bp', __name__,
 @appmain_bp.route("/appmain", methods=["POST"])
 def appmain():
     command = request.form.get("command")
+    # command = ast.literal_eval(list(request.form.values())[0]).get('command')  # request form Spring Boot3
+
     msg = f'{dt.now().strftime(ftime)} [{mid}] --- @appmain_bp.route("/appmain") --- command: {command} ---'
     print(msg)
 
