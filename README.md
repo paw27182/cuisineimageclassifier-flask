@@ -57,6 +57,6 @@
 | tests | Dir | test image files |
 | topview | Dir ||
 | app.py  | File | start program |
-| READMD.md | File ||
+| README.md | File ||
 | requirements.txt | File | prerequisite libraries |
 | setting.py | File ||
