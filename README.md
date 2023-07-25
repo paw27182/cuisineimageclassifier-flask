@@ -27,8 +27,8 @@
 
 * Open browser
   * http://localhost:8000/
-  * Submit an image:<br>
-   ./uisineimageclassifier-flask/tests/salad.jpg
+  * Submit an image file:<br>
+   ./cuisineimageclassifier-flask/tests/salad.jpg
 
 <br>
 
