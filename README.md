@@ -39,7 +39,7 @@
 # 3. System
 * OS: Windows 10, Ubuntu 20.04.6 LTS
 * Web Framework: Flask
-* Python 3.10.11
+* Python 3.11.4
 * Python Libraries: See the requirements.txt file
 * Bootstrap 5.2.3
 * jQuery 3.7.0
