@@ -17,6 +17,14 @@
 
 * Install the prerequisite python libraries
 
+* Get a model file from the GitHub repository of 'cuisineimageclassifier-jupyter'
+
+  STEP1: > git clone git@github.com:paw27182/cuisineimageclassifier-jupyter.git
+
+  STEP2: Copy the model file of 'best_model_2.14.0.h5' to the following directory.
+
+         ~/cuisineimageclassifier-flask/appmain/model
+
 * Environment setting
   * Edit settings.py
     * PYTHON_EXE_FILE 
@@ -39,7 +47,7 @@
 # 3. System
 * OS: Windows 10, Ubuntu 20.04.6 LTS
 * Web Framework: Flask
-* Python 3.11.4
+* Python 3.11.6
 * Python Libraries: See the requirements.txt file
 * Bootstrap 5.2.3
 * jQuery 3.7.0
