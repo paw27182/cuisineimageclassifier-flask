@@ -21,7 +21,7 @@
 
   STEP1: > git clone git@github.com:paw27182/cuisineimageclassifier-jupyter.git
 
-  STEP2: Copy the model file of 'best_model_2.14.0.h5' to the following directory.
+  STEP2: Copy the model file of 'best_model_2.18.0.keras' to the following directory.
 
          ~/cuisineimageclassifier-flask/appmain/model
 
@@ -47,7 +47,7 @@
 # 3. System
 * OS: Windows 10, Ubuntu 20.04.6 LTS
 * Web Framework: Flask
-* Python 3.11.6
+* Python 3.12.7
 * Python Libraries: See the requirements.txt file
 * Bootstrap 5.2.3
 * jQuery 3.7.0
