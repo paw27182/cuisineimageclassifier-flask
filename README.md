@@ -50,7 +50,7 @@
 * Python 3.12.7
 * Python Libraries: See the requirements.txt file
 * Bootstrap 5.2.3
-* jQuery 3.7.0
+* jQuery 3.7.1
 
 <br>
 
