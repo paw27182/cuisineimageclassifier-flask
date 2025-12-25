@@ -1,4 +1,4 @@
 .idea
 .vscode
 __pycache__/
-appmain/model/best_model_2.18.0.keras
+appmain/model/best_model_2.20.0.keras
